@@ -2,6 +2,8 @@
 
 Este README descreve, em português, como preparar o ambiente e como executar o pipeline existente para treinar/predizer usando o modelo GRU por estações (clusters/k-means) e por bacias (regiões do shapefile).
 
+Baixar o dataset de: https://drive.google.com/file/d/1Ljc9hgElfpD82LmBeuKmXZjImQQ0eTnz/view?usp=drive_link
+
 ## 1) Requisitos e criação do ambiente (Conda)
 
 - Crie um ambiente conda com Python 3.12 (nome sugerido `movex_py312`):
