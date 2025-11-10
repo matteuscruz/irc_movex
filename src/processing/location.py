@@ -53,7 +53,7 @@ class LocationProcessor:
         }
 
     def run_location_predictions(self, data, ano_alvo, quadrimestre_alvo,
-                                 epochs=50, batch_size=32, lr=0.001, model_type="lstm"):
+                                 epochs=200, batch_size=64, lr=0.001, model_type="lstm"):
         from src.utils.results import format_prediction_result
         import numpy as np
 
